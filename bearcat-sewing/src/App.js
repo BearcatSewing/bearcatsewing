@@ -1,17 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import TopNav from './sections/TopNav';
+import Main from './sections/Main';
+import Contact from './sections/Contact';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Bearcat Sewing!
-        </p>
-      </header>
+      <TopNav />
+      <Main />
+      <Contact />
     </div>
   );
 }
-
-export default App;
